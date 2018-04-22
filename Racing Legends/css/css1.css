@@ -1,0 +1,14 @@
+﻿body {
+}
+
+
+#categorias{
+    display:flex;
+}
+
+#pilotos{
+    display:none;
+}
+
+
+
