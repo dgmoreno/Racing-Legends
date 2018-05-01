@@ -6,11 +6,41 @@
     <link rel="stylesheet" href="css/css1.css"/>
 </head>
 <body>
-    <div id="topbar"></div>
+    <div id="topbar">
+        <h1>Racing Legends</h1>
+        <ul>
+            <li><a>Home</a></li>
+        </ul>
+    </div>
     <div id="categorias"></div>
     <div id="pilotos"></div>
-    <div id="detalhesP"></div>
-    <div id="multimedia"></div>
+    <div id="detalhesP">
+        <h3 id="nome"></h3>
+        <div id="alcunha"></div>
+        <div id="data"></div>
+        <img id="foto" />
+        <div id="records">
+            <span id="campeonatos"></span><br />
+            <span id="corrida"></span><br />
+            <span id="vitorias"></span><br />
+        </div><br />
+        <div id="introducao"></div>
+        <br />
+        <br />
+        <div id="carreira"></div>
+        <div id="minimulti"></div>
+    </div>
+    <div id="multimedia" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+    </div>
     <script src="js/Api.js"></script>
     <script src="js/dados.js"></script>
 </body>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Racing Legends", "Racing Legends\Racing Legends.csproj", "{48274144-E1D0-4055-AB80-6D8EE61E9FF8}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DEE7A832-2D8A-43D6-8A85-52E4EE54818F}
+		SolutionGuid = {19A20AFE-1952-49B6-BE67-4A0BA367F6E8}
 	EndGlobalSection
 EndGlobal

@@ -28,13 +28,32 @@ function getDrivers(id_categoria) {
             if (resposta.status == 200) {
                 return resposta.json();
             } else {
-                return Promise.reject(new Error("Erro ao obter categorias"));
+                return Promise.reject(new Error("Erro ao obter Pilotos"));
             }
         });
 }
 
 function getImgP(id_piloto) {
     var url = "http://ipt-ti2-racinglegends-api.eu-gb.mybluemix.net/api/v1/drivers/" + id_piloto + "/image";
+
+    return url;
+}
+
+function getDetalhe(id_piloto) {
+    var url = "http://ipt-ti2-racinglegends-api.eu-gb.mybluemix.net/api/v1/drivers/" + id_piloto;
+
+    return fetch(url, { headers: { Accept: 'application/json' } })
+        .then(function (resposta) {
+            if (resposta.status == 200) {
+                return resposta.json();
+            } else {
+                return Promise.reject(new Error("Erro ao obter detalhes"));
+            }
+        });
+}
+
+function getMulti(id_piloto, id_imagem) {
+    var url = "http://ipt-ti2-racinglegends-api.eu-gb.mybluemix.net/api/v1/drivers/" + id_piloto + "/multimedia/images/" + id_imagem + "/image";
 
     return url;
 }

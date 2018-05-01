@@ -1,14 +1,153 @@
 ﻿body {
+    font-family: Arial;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
-#categorias{
-    display:flex;
+#detalhesP #minimulti img:hover {
+    opacity: 0.7;
 }
 
-#pilotos{
-    display:none;
+#detalhesP #minimulti img {
+    margin: auto;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#categorias .caixa img {
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#categorias img:hover {
+    opacity: 0.7;
 }
 
 
 
+#detalhesP img {
+    margin: auto;
+    width: 15%;
+    height: 15%;
+    border-radius: 5px;
+}
+
+#pilotos img:hover {
+    opacity: 0.7;
+}
+#pilotos img {
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#categorias {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    align-items: center;
+}
+
+    ul li {
+        float: none;
+        width: auto;
+        height: 40px;
+        background-color: green;
+        opacity: 0.8;
+        line-height: 40px;
+        text-align: center;
+    }
+
+ul li a{
+    text-decoration: none;
+    display:block;
+}
+
+    ul li a:hover {
+        background-color: lightgreen;
+    }

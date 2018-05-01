@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\css1.css" />
+    <Content Include="imagem\youtube.png" />
     <Content Include="js\Api.js" />
     <Content Include="js\dados.js" />
     <Content Include="index.html" />
@@ -84,6 +85,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
